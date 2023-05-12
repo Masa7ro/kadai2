@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+.main-visual {
+    background-color: #000000;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    text-align: center; 
+}
+
+.titlechoose {
+    text-align: center; 
+    justify-content: center; 
+    font-size: 32px;
+    padding: 10%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.selectedCharacter {
+    display: flex;
+    justify-content: center; 
+}
+
+.characterimg {
+    width: 30%;
+}
+
+#selectedCharacter{
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 5%;
+    color: #f36609;
+}
+
+.taisen{
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 5%;
+}
+
+
+
+.selectedChar{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#enermy {
+    display: flex;
+    justify-content: center; 
+
+}
+.image{
+    width: 30%
+
+}
+
+#playerselect{
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 5%;
+}
+
+#computerselect{
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 5%;
+}
+
+#resultMsg{
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 5%;
+}
